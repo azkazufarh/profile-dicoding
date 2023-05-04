@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Azka Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav>
+        <a href="#" class="nav-brand">Azka.</a>
+        <div class="nav-wrapper" id="myTopnav">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <button class="primary-btn" id="contactBtn">Contact Me</button>
+        </div>
+        <a
+          href="javascript:void(0);"
+          style="font-size: 15px"
+          class="icon"
+          onclick="myFunction()"
+          >&#9776;</a
+        >
+      </nav>
+    </header>
+    <!-- End Header -->
+
+    <main>
+      <!-- Hero Section -->
+      <div id="content" class="hero-section">
+        <aside>
+          <h1>Hi! I Am<br />Azka Zufar Hanif</h1>
+          <button class="primary-btn">Web Designer</button>
+          <p>
+            Develop web design with various interactive features as Web Designer
+          </p>
+        </aside>
+        <div class="profile">
+          <img src="assets/img-1.png" alt="" />
+          <div class="contact-icon">
+            <img src="assets/email.svg" class="img-contact-icon" alt="" />
+            <img src="assets/instagram.svg" class="img-contact-icon" alt="" />
+            <img src="assets/linkedin.svg" class="img-contact-icon" alt="" />
+            <img src="assets/tik-tok.svg" class="img-contact-icon" alt="" />
+          </div>
+        </div>
+      </div>
+      <!-- End Hero Section -->
+
+      <!-- About Me -->
+      <div class="about-me" id="about">
+        <div class="header-desc">
+          <h1 class="title-section">About Me</h1>
+          <hr />
+        </div>
+        <div class="about-me-content">
+          <aside>
+            <img src="assets/DSC_0011.png" alt="" />
+          </aside>
+          <div class="about-me-desc">
+            <article>
+              I'm a student of Information of Technology study program in
+              President University. I have a passion in technology and design. I
+              was graduate at vacational high school majoring Multimedia and
+              have certification of Adobe Creative Profesional in Design
+              Communication Visual.
+            </article>
+            <article>
+              But I have expertise in some field too, like design graphic, UI
+              design, and Web Developer. I have a some hardskill cooperation,
+              creative thinking, problem solving, and can work as individual or
+              team.
+            </article>
+          </div>
+        </div>
+      </div>
+      <!-- End About Me -->
+
+      <!-- Projects -->
+      <div id="projects" class="projects">
+        <div class="header-desc">
+          <h1 class="title-section">Projects</h1>
+          <hr />
+        </div>
+        <div class="projects-container">
+          <div class="projects-col">
+            <img src="assets/1.png" alt="" />
+          </div>
+          <div class="projects-col">
+            <img src="assets/2.png" alt="" />
+          </div>
+          <div class="projects-col">
+            <img src="assets/3.png" alt="" />
+          </div>
+          <div class="projects-col">
+            <img src="assets/4.jpg" alt="" />
+          </div>
+          <div class="projects-col">
+            <img src="assets/5.png" alt="" />
+          </div>
+          <div class="projects-col">
+            <img src="assets/6.png" alt="" />
+          </div>
+          <div class="projects-col">
+            <img src="assets/7.png" alt="" />
+          </div>
+          <div class="projects-col">
+            <img src="assets/8.png" alt="" />
+          </div>
+          <div class="projects-col">
+            <img src="assets/9.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <!-- End Projects -->
+
+      <!-- Contact Me -->
+      <div id="contact-me" class="contact-me">
+        <aside class="biodata" id="biodata">
+          <img class="profile" src="assets/img-1.png" alt="" />
+          <h2>Azka Zufar Hanif</h2>
+          <p class="desc">Designer Grafis | Video Editor | UI Designer</p>
+          <div class="wrapper">
+            <div class="icon-bio">
+              <img src="assets/phone_black_24dp.svg" alt="" />
+              <p>+62 822-1498-4819</p>
+            </div>
+            <div class="icon-bio">
+              <img src="assets/email_black_24dp (1).svg" alt="" />
+              <p>azkazhanif@gmail.com</p>
+            </div>
+            <div class="icon-bio">
+              <img src="assets/map_black_24dp.svg" alt="" />
+              <p>
+                Ciherang No. 33 RT 2 RW 1 Pacet,<br />
+                Cianjur, West Java, Indonesian <br />
+                - 43253
+              </p>
+            </div>
+          </div>
+        </aside>
+        <div class="contact-desc">
+          <h1>Do you want to hire me?</h1>
+          <button class="primary-btn" id="contactBtn">Contact Me</button>
+        </div>
+      </div>
+      <!-- End Contact Me -->
+
+      <!-- Modal -->
+      <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Let's work together!</h2>
+
+          <form action="">
+            <label for="name">Your Name</label><br />
+            <input type="text" name="name" id="name" required /><br />
+            <label for="email">Your Email Address</label><br />
+            <input type="email" name="email" id="email" required /><br />
+            <label for="service">Services</label><br />
+            <select name="service" id="service">
+              <option value="graphicdesign">Graphic Designer</option>
+              <option value="editor">Video Editor</option>
+              <option value="uidesign">UI Designer</option>
+              <option value="developer">Web Developer</option></select
+            ><br />
+            <label for="desc">Job Description</label><br />
+            <textarea name="desc" id="desc" cols="30" rows="10"></textarea
+            ><br />
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
+      </div>
+      <!-- End Modal -->
+    </main>
+
+    <footer>
+      <p>Copyright 2023, Azka Z Hanif</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
